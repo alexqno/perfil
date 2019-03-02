@@ -6,6 +6,7 @@
 package perfil.gui;
 
 import javax.swing.JFrame;
+import perfil.util.CloseListener;
 
 /**
  *
@@ -21,6 +22,10 @@ public class Dicas_Form extends javax.swing.JDialog {
     public Dicas_Form(JFrame parent, boolean modal) {
         super(parent, modal);
         initComponents();
+        
+        CloseListener cl = new CloseListener("Ao fechar o perfil será exibido.\nDeseja Continuar?", "Fechar");
+        this.addWindowListener( cl );
+        
         controller = new Dicas_Controller(this);
     }
 
