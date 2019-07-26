@@ -19,7 +19,7 @@ public class ShowDica_Form extends javax.swing.JDialog {
     public ShowDica_Form(JDialog parent, String dica, boolean modal) {
         super(parent, modal);
         initComponents();
-        jLabel1.setText(dica);
+        jLabel2.setText(dica);
     }
 
     /**
@@ -32,21 +32,20 @@ public class ShowDica_Form extends javax.swing.JDialog {
     private void initComponents() {
 
         jPanel1 = new javax.swing.JPanel();
-        jLabel1 = new javax.swing.JLabel();
+        jLabel2 = new javax.swing.JLabel();
         jButton1 = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.DO_NOTHING_ON_CLOSE);
-        setPreferredSize(new java.awt.Dimension(800, 330));
         setResizable(false);
         getContentPane().setLayout(null);
 
         jPanel1.setPreferredSize(new java.awt.Dimension(0, 0));
         jPanel1.setLayout(new java.awt.BorderLayout());
 
-        jLabel1.setFont(new java.awt.Font("Calibri", 3, 36)); // NOI18N
-        jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel1.setText("jLabel1");
-        jPanel1.add(jLabel1, java.awt.BorderLayout.CENTER);
+        jLabel2.setFont(new java.awt.Font("Calibri", 3, 36)); // NOI18N
+        jLabel2.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel2.setText("jLabel2");
+        jPanel1.add(jLabel2, java.awt.BorderLayout.CENTER);
 
         getContentPane().add(jPanel1);
         jPanel1.setBounds(0, 0, 810, 260);
@@ -105,7 +104,7 @@ public class ShowDica_Form extends javax.swing.JDialog {
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton jButton1;
-    protected javax.swing.JLabel jLabel1;
+    protected javax.swing.JLabel jLabel2;
     protected javax.swing.JPanel jPanel1;
     // End of variables declaration//GEN-END:variables
 }
