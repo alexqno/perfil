@@ -44,7 +44,7 @@ public class ShowDica_Form extends javax.swing.JDialog {
 
         jLabel2.setFont(new java.awt.Font("Calibri", 3, 36)); // NOI18N
         jLabel2.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel2.setText("jLabel3");
+        jLabel2.setText("jLabel4");
         jPanel1.add(jLabel2, java.awt.BorderLayout.CENTER);
 
         getContentPane().add(jPanel1);
